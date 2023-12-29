@@ -15,7 +15,7 @@ namespace dcgx
     {
 
         public static int quantity = 0;
-        public static string folderPath = Environment.CurrentDirectory + "\\results.txt";
+        public static string folderPath = $"{Environment.CurrentDirectory}\\results.txt";
         public static string DiscordActivationURL = "https://discord.com/billing/partner-promotions/1180231712274387115/";
 
 
